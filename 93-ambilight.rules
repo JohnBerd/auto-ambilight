@@ -1,0 +1,2 @@
+ENV{ID_VENDOR_ID}=="1a86", ENV{ID_MODEL_ID}=="7523", ACTION=="add", RUN+="/usr/sbin/service led restart"
+ENV{ID_VENDOR_ID}=="1a86", ENV{ID_MODEL_ID}=="7523", ACTION=="remove", RUN+="/usr/sbin/service led stop"
