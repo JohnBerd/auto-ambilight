@@ -18,7 +18,7 @@ I use the cheap ambilight controller (adalight) bought from Aliexpress
 ## usage
 
 Read the install.sh file and modify the righ lines in within the right files.
-launch ```sudo install.sh```
+launch ```sudo ./install.sh```
 
 ## disclaimer
 

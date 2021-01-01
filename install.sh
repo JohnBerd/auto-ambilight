@@ -6,3 +6,4 @@ cp prismatik /usr/local/bin
 cp led.service /etc/systemd/system
 # modify the vendor and product id: run lsblk while controller is plugged in
 cp 93-ambilight.rules /etc/udev/rules.d
+systemctl enable autoadb.service
